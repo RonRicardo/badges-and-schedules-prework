@@ -1,7 +1,7 @@
 @room_list = Array(1..7)
 
 def assign_rooms(name)
-  room_number = @room_list.shift()
+  room_number = 1
   room_assignments = []
   room_message = "Hello, #{name}! You'll be assigned to room #{room_number}!"
   room_assignments << room_message
