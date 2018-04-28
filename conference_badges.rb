@@ -5,6 +5,7 @@ def assign_rooms(name)
   room_assignments = []
   room_message = "Hello, #{name}! You'll be assigned to room #{room_number}!"
   room_assignments << room_message
+  room_assignments
 end
 
 def badge_maker(name)
