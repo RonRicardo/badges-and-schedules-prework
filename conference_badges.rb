@@ -15,6 +15,7 @@ names.each { |name|
   badge = "Hello, my name is #{name}."
   badge_list << badge
   }
+  badge_list
 end
 
 def batch_badge_creator(names)
