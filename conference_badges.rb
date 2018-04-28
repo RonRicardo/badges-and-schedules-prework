@@ -21,5 +21,9 @@ def batch_badge_creator(names)
    badge_list
 end
 
-def printer(atendees)
+def printer(attendees)
+  attendees.each { |person|
+    puts badge_maker(person)
+    puts assign_rooms(person)
+  }
 end
