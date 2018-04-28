@@ -6,8 +6,12 @@ def assign_rooms(name)
   room_number
 end
 
+def badge_maker(name)
+  badge = "Hello, my name is #{name}" 
+end
+
 def batch_badge_creator(names)
-  names.each {|name| badge = "Hello, my name is #{name}" }
+  names.each {|name| }
 end
 
 def printer()
