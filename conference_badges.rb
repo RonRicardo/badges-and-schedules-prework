@@ -3,10 +3,11 @@
 def assign_rooms(names)
   room_number = 1
   room_assignments = []
-  names.each |name| do
+  names.each { |name|
     room_message = "Hello, #{name}! You'll be assigned to room #{room_number}!"
     room_assignments << room_message
-  end
+    room_number += 1
+  }
     room_assignments
 end
 
