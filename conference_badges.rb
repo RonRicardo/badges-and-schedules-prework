@@ -16,7 +16,7 @@ end
 def batch_badge_creator(names)
   badge_list = []
    names.each { |name|
-     name.badge_maker
+     badge_list << name.badge_maker
     }
    badge_list
 end
