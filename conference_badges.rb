@@ -10,11 +10,11 @@ def assign_rooms(names)
 end
 
 def badge_maker(names)
-badge_list = []
-names.each { |name|
-  badge = "Hello, my name is #{name}."
-  badge_list << badge
-  }
+ badge_list = []
+  names.each { |name|
+   badge = "Hello, my name is #{name}."
+   badge_list << badge
+   }
   badge_list
 end
 
