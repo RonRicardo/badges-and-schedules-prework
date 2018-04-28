@@ -21,7 +21,7 @@ def batch_badge_creator(names)
    badge_list
 end
 
-def printer(attendees)
+def printer
   batch_badge_creator(attendees).each do |attendee_info|
     puts attendee_info
   end
