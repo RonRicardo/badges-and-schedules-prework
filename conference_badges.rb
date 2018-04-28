@@ -6,6 +6,6 @@ def assign_rooms(name)
 end
 
 def batch_badge_creator(names)
-  names.each{ |name| assign_room(name)}
+  names.each{ |names| names.assign_rooms}
   #out: array of badge messages
 end
