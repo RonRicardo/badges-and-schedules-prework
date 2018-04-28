@@ -21,5 +21,5 @@ def batch_badge_creator(names)
    badge_list
 end
 
-def printer
+def printer(atendees)
 end
