@@ -2,7 +2,9 @@
 
 def assign_rooms(name)
   room_number = @room_list.shift()
-  puts "Hello, #{name}! You'll be assigned to room #{room_number}!"
+  room_assignments = []
+  room_message = "Hello, #{name}! You'll be assigned to room #{room_number}!"
+  room_assignments << room_message
 end
 
 def badge_maker(name)
