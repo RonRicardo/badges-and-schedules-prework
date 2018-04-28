@@ -9,11 +9,16 @@ def assign_rooms(names)
     room_assignments
 end
 
-def badge_maker(names)
+def badge_maker(name)
    badge = "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(names)
+  badge_list = []
+   names.each { |name|
+     name.badge_maker
+    }
+   badge_list
 end
 
 def printer()
